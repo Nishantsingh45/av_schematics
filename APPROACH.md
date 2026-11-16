@@ -41,13 +41,10 @@ All tolerances scale with the page's text height, so nothing is tied to a file, 
 4. **Re-check**: a finer zoom; every connection is verified, especially neighbouring ports such as `IP1`/`IP2`.
 5. **Legibility check**: unreadable text must be `?`; if a name was not read exactly, the page is marked `low_confidence`.
 
-**Why no trained model, and where ML fits next.** With one labelled drawing there is nothing to train or
-validate on, and the PDFs already hold exact geometry that a model would only approximate. Where the
-input is pixels, a pre-trained vision model is used zero-shot with structured output, tiling and a
-self-check. The next step for ML is built in: the PDF pipeline is a free labeller. Rendering a vector
-PDF as an image gives a picture whose every device, port and cable is already known. That makes an
-automatically labelled training set for an image model (a detector for device blocks and ports, plus
-line segmentation) to read scanned and photographed drawings without an API.
+**Why no trained model.** With one labelled drawing there is nothing to train or validate on, and the
+PDFs already hold exact geometry that a model would only approximate. Where the input is pixels, a
+pre-trained vision model is used zero-shot with structured output, tiling and a self-check. Section 6
+describes how the PDF pipeline could generate training data for a model of our own.
 
 **Tools.** Python, PyMuPDF, and Claude (Anthropic) as the vision model; AI coding assistance was used during development.
 
@@ -101,6 +98,23 @@ Tried and dropped: a pixel-level tracer for pictures broke cables at corners and
 - The rules come from about three drawing styles; a new style may need a new rule, and the per-page status makes that visible.
 - Answer keys other than the sample's are hand-made.
 - Picture input needs a paid API (two calls per picture) and was measured on one picture with a known answer; scanned PDFs are untested.
-- Next: more labelled drawings, the auto-labelled image dataset described in section 2, and majority voting for pictures.
+- Next: more labelled drawings, the training-data generator in section 6, and majority voting for pictures.
+
+## 6. Extra: a path to a trained model (proposed, not built)
+
+The missing ingredient for a trained image model is labelled data, and the PDF pipeline can produce it
+at no annotation cost. Rendering a vector PDF as an image gives a picture whose every device, port and
+cable the pipeline already knows exactly.
+
+1. **Render** each vector PDF page to an image, at several resolutions.
+2. **Export labels** the pipeline already has: device-block boxes, port rows and their names, connection
+   dots and each cable's path, in a standard format such as COCO or YOLO.
+3. **Train** a detector for device blocks and ports, plus a line-segmentation model for cables; read the
+   text inside each detected box.
+4. **Evaluate** against the existing answer keys and `test.jpg`, and compare with the vision-model
+   reader on accuracy, cost and speed.
+
+Every new vector PDF would add training data for free. The resulting model would read scanned and
+photographed drawings offline, without an API. It is not part of the current tool.
 
 Setup and commands are in `README.md`.
