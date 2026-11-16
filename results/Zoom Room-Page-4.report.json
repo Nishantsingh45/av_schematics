@@ -1,0 +1,71 @@
+{
+  "file": "Zoom Room-Page-4.pdf",
+  "connections": 5,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 5,
+        "blocks_with_product_name": 5,
+        "dots": 10,
+        "cables": 5,
+        "cable_ends": 10,
+        "cable_ends_resolved": 10,
+        "connections": 5,
+        "mean_confidence": 0.96
+      },
+      "connections": [
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (4)",
+          "source_port": "HDMI OP1",
+          "target_device": "SONY FW-75BZ30L",
+          "target_port": "HDMI/ DVI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "HD- 002"
+        },
+        {
+          "source_device": "LOGITECH RALLY TABLE HUB (4)",
+          "source_port": "CAT5/6 OP1",
+          "target_device": "LOGITECH RALLY DISPLAY HUB (4)",
+          "target_port": "CAT5/6 IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "N- 001"
+        },
+        {
+          "source_device": "LOGITECH RALLY MIC POD GRAPHITE (4)",
+          "source_port": "",
+          "target_device": "LOGITECH RALLY TABLE HUB (4)",
+          "target_port": "MIC IP1",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "A- 001"
+        },
+        {
+          "source_device": "LOGITECH RALLY CAMERA (4)",
+          "source_port": "USB C OP1",
+          "target_device": "LOGITECH RALLY TABLE HUB (4)",
+          "target_port": "USB A IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "USB- 002"
+        },
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (4)",
+          "source_port": "AUDIO OP1",
+          "target_device": "LOGITECH RALLY SPEAKER (4) (LOGITECH RALLY PLUS)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "A- 002"
+        }
+      ]
+    }
+  ]
+}

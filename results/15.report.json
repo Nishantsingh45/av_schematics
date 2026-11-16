@@ -1,0 +1,16 @@
+{
+  "file": "15.jpg",
+  "connections": 0,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "llm",
+      "status": "no_cables",
+      "note": "This page is a rack elevation (title block says RACK ELEVATION) showing equipment mounted in a 32U rack, such as Yealink RCH240, patch panels, blank plates, Yealink EN300, Biamp Qt X 300 and others. It has no cables or wiring connections between devices.",
+      "stats": {
+        "connections": 0
+      },
+      "connections": []
+    }
+  ]
+}

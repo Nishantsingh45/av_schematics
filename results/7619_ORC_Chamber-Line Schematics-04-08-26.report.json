@@ -1,0 +1,1718 @@
+{
+  "file": "7619_ORC_Chamber-Line Schematics-04-08-26.pdf",
+  "connections": 178,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 33,
+        "blocks_with_product_name": 33,
+        "dots": 143,
+        "cables": 76,
+        "cable_ends": 152,
+        "cable_ends_resolved": 152,
+        "connections": 75,
+        "mean_confidence": 0.95
+      },
+      "connections": [
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (1)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (1)",
+          "target_port": "DATA1",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "LAN-047"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (1)",
+          "source_port": "DATA2",
+          "target_device": "MAXHUB MHUW92NA (1)",
+          "target_port": "LAN1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-048"
+        },
+        {
+          "source_device": "GENERIC OFEPOWER PLATE (1)",
+          "source_port": "POWER1",
+          "target_device": "MAXHUB MHUW92NA (1)",
+          "target_port": "POWER1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": ""
+        },
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (2)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (2)",
+          "target_port": "DATA1",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "LAN-049"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (2)",
+          "source_port": "DATA2",
+          "target_device": "MAXHUB MHUW92NA (2)",
+          "target_port": "LAN1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-050"
+        },
+        {
+          "source_device": "GENERIC OFEPOWER PLATE (2)",
+          "source_port": "POWER1",
+          "target_device": "MAXHUB MHUW92NA (2)",
+          "target_port": "POWER1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-002"
+        },
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (3)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (3)",
+          "target_port": "DATA1",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "LAN-051"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (3)",
+          "source_port": "DATA2",
+          "target_device": "MAXHUB MHUW92NA (3)",
+          "target_port": "LAN1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-052"
+        },
+        {
+          "source_device": "GENERIC OFEPOWER PLATE (3)",
+          "source_port": "POWER1",
+          "target_device": "MAXHUB MHUW92NA (3)",
+          "target_port": "POWER1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-003"
+        },
+        {
+          "source_device": "YEALINK DE300CONTENT INPUT (4)",
+          "source_port": "HDMI1",
+          "target_device": "YEALINK MCORE 4",
+          "target_port": "HDMI1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-001"
+        },
+        {
+          "source_device": "YEALINK MCORE 4",
+          "source_port": "HDMI1",
+          "target_device": "YEALINKEN300MTR PC ENCODER (1)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-015"
+        },
+        {
+          "source_device": "YEALINKEN300MTR PC ENCODER (1)",
+          "source_port": "LAN1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-053"
+        },
+        {
+          "source_device": "GOV SUPPORT",
+          "source_port": "",
+          "target_device": "YEALINK EN300(9) (2)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-002"
+        },
+        {
+          "source_device": "GUEST PRESO 1",
+          "source_port": "",
+          "target_device": "YEALINK EN300 (10) (3)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-003"
+        },
+        {
+          "source_device": "YEALINK ROOMCAST",
+          "source_port": "HDMI OP1",
+          "target_device": "YEALINK EN300 (4)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-016"
+        },
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (3)",
+          "source_port": "HDMI1",
+          "target_device": "MAXHUB MHUW92NA (3)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-004"
+        },
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (1)",
+          "source_port": "HDMI1",
+          "target_device": "MAXHUB MHUW92NA (1)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-005"
+        },
+        {
+          "source_device": "YEALINKDE300 CONFIDENCE MONITOR (2)",
+          "source_port": "HDMI1",
+          "target_device": "MAXHUB MHUW92NA (2)",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-006"
+        },
+        {
+          "source_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE DATA PLATE (3)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-056"
+        },
+        {
+          "source_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "source_port": "DATA2",
+          "target_device": "GENERIC OFE DATA PLATE (1)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-057"
+        },
+        {
+          "source_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "source_port": "DATA3",
+          "target_device": "GENERIC OFE DATA PLATE (2)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-058"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP13",
+          "target_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-059"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP14",
+          "target_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-060"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP15",
+          "target_device": "GENERIC OFE 4 PORT DATA PLATE (2)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-061"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP20",
+          "target_device": "YEALINKDE300 VIDEO WALL (5)",
+          "target_port": "LAN1",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-070 + LAN-070"
+        },
+        {
+          "source_device": "YEALINK MTOUCH PLUS",
+          "source_port": "VCH1",
+          "target_device": "GENERIC OFE DATA PLATE (4)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-071"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA1",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-105"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA2",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-106"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA3",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-107"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA4",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-108"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA5",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-109"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA6",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-110"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "source_port": "DATA7",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "DATA7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-111"
+        },
+        {
+          "source_device": "GENERIC OFEPOWER PLATE (4)",
+          "source_port": "POWER1",
+          "target_device": "TAYLOR LEDS WN1.5II",
+          "target_port": "POWER1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-005"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-112"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA2",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-113"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA3",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-114"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA4",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-115"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA5",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-116"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA6",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-117"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "source_port": "DATA7",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (4)",
+          "target_port": "DATA7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-118"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-119"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP2",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-120"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP3",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-121"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP4",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-122"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP5",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-123"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP6",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-124"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN OP7",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (5)",
+          "target_port": "DATA7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-125"
+        },
+        {
+          "source_device": "YEALINKDE300 VIDEO WALL (5)",
+          "source_port": "HDMI1",
+          "target_device": "NOVASTAR VX1000",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "VID-008"
+        },
+        {
+          "source_device": "GENERIC OFE GENERIC OFE POWER PLATE (1)",
+          "source_port": "POWER1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "POWER IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-017"
+        },
+        {
+          "source_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE DATA PLATE (3)",
+          "target_port": "DATA2",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "LAN-236 + LAN-236"
+        },
+        {
+          "source_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "source_port": "DATA2",
+          "target_device": "GENERIC OFE DATA PLATE (1)",
+          "target_port": "DATA2",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "LAN-238 + LAN-238"
+        },
+        {
+          "source_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "source_port": "DATA3",
+          "target_device": "GENERIC OFE DATA PLATE (2)",
+          "target_port": "DATA2",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "LAN-240 + LAN-240"
+        },
+        {
+          "source_device": "YEALINK AVHUB",
+          "source_port": "CODEC",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP3",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-246 + LAN-246"
+        },
+        {
+          "source_device": "YEALINK ROOMCAST",
+          "source_port": "LAN POE1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": ""
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (4)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-251"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "source_port": "DATA1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP9",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-252"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "source_port": "DATA2",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP10",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-253"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "source_port": "DATA3",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP11",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-254"
+        },
+        {
+          "source_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "source_port": "DATA4",
+          "target_device": "CLIENT LAN",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-257"
+        },
+        {
+          "source_device": "CLIENT LAN",
+          "source_port": "",
+          "target_device": "YEALINK MCORE 4",
+          "target_port": "LAN1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": ""
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP23",
+          "target_device": "CLIENT LAN",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-259"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP23",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE OP24",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "LAN-260 + LAN-260"
+        },
+        {
+          "source_device": "NOVASTAR VX1000",
+          "source_port": "LAN1",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP11",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-268 + LAN-268"
+        },
+        {
+          "source_device": "YEALINK MCORE 4",
+          "source_port": "USB A1",
+          "target_device": "YEALINK AVHUB",
+          "target_port": "PC USB B IP1",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "USB-006 + USB-006"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (16)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-247"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (17)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-248"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (17)",
+          "source_port": "DATA2",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-249"
+        },
+        {
+          "source_device": "YEALINK EN300 (10) (3)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (17)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-275"
+        },
+        {
+          "source_device": "YEALINK EN300 (4)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (17)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-276"
+        },
+        {
+          "source_device": "YEALINK EN300(9) (2)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (16)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-277"
+        },
+        {
+          "source_device": "YEALINK DE300CONTENT INPUT (4)",
+          "source_port": "LAN1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-054"
+        },
+        {
+          "source_device": "YEALINK MCORE 4",
+          "source_port": "POWER1",
+          "target_device": "GENERIC OFE GENERIC OFE POWER PLATE (1)",
+          "target_port": "POWER2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-016, LAN-256"
+        },
+        {
+          "source_device": "YEALINK MCORE 4",
+          "source_port": "MTOUCH1",
+          "target_device": "GENERIC OFE 7 PORT DATA PLATE (6)",
+          "target_port": "DATA5",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "LAN-256"
+        },
+        {
+          "source_device": "GENERIC OFE GENERIC OFE POWER PLATE (1)",
+          "source_port": "POWER3",
+          "target_device": "NOVASTAR VX1000",
+          "target_port": "POWER IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-022"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 14,
+        "blocks_with_product_name": 14,
+        "dots": 114,
+        "cables": 59,
+        "cable_ends": 118,
+        "cable_ends_resolved": 118,
+        "connections": 58,
+        "mean_confidence": 0.96
+      },
+      "connections": [
+        {
+          "source_device": "OFE SHURE HANDHELD MIC",
+          "source_port": "",
+          "target_device": "SHURE ANI22-XLR (1)",
+          "target_port": "MIC/ LINE IP1",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "AUD-001"
+        },
+        {
+          "source_device": "OFE SHURE HEADSET MIC",
+          "source_port": "",
+          "target_device": "SHURE ANI22-XLR (1)",
+          "target_port": "MIC/ LINE IP2",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "AUD-002"
+        },
+        {
+          "source_device": "OFE BOSCH WIRELESS DELEGATE (18)",
+          "source_port": "AUDIO OP1",
+          "target_device": "SHURE ANI22-XLR (2)",
+          "target_port": "MIC/ LINE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-003"
+        },
+        {
+          "source_device": "SHURE ANI22-XLR (3)",
+          "source_port": "AUDIO OP1",
+          "target_device": "AMPETRONICS ALS",
+          "target_port": "AUDIO IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-004"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP12",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-001"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP13",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-002"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP14",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-003"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP15",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-004"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP16",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-005"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP17",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-006"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP18",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-007"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP19",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA8",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-008"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP20",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA9",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-009"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP21",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA10",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-010"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP22",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA11",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-011"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP13",
+          "target_device": "GENERIC OFEPATCH PANEL (1)",
+          "target_port": "DATA12",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-012"
+        },
+        {
+          "source_device": "YEALINK AP08",
+          "source_port": "LAN POE+1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-021"
+        },
+        {
+          "source_device": "SHURE ANI22-XLR (1)",
+          "source_port": "DANTE POE1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-022"
+        },
+        {
+          "source_device": "OFE BOSCH WIRELESS DELEGATE (18)",
+          "source_port": "DATA1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-023"
+        },
+        {
+          "source_device": "SHURE ANI22-XLR (2)",
+          "source_port": "DANTE POE1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-024"
+        },
+        {
+          "source_device": "SHURE ANI22-XLR (3)",
+          "source_port": "DANTE POE1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "LAN POE IP5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-025"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA1",
+          "target_device": "YEALINK CM50 (1)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-027"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA2",
+          "target_device": "YEALINK CM50 (2)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-028"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA3",
+          "target_device": "YEALINK CS10-D (1)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-029"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA4",
+          "target_device": "YEALINK CS10-D (2)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-030"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA5",
+          "target_device": "YEALINK CS10-D (3)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-031"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA6",
+          "target_device": "YEALINK CS10-D (4)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-032"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA7",
+          "target_device": "YEALINK CS10-D (5)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-033"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA8",
+          "target_device": "YEALINK CS10-D (6)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-034"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA9",
+          "target_device": "YEALINK CS10-D (16)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-035"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA10",
+          "target_device": "YEALINK CS10-D (17)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-036"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA11",
+          "target_device": "YEALINK CS10-D (18)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-037"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (1)",
+          "source_port": "DATA12",
+          "target_device": "YEALINK CS10-D (7)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-038"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP24",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE OP23",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "LAN-263 + LAN-263"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP14",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA13",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-013"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP15",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA14",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-014"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP16",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA15",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-015"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP17",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA16",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-016"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP18",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA17",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-017"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP19",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA18",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-018"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP20",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA19",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-019"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP21",
+          "target_device": "GENERIC OFEPATCH PANEL (2)",
+          "target_port": "DATA20",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-020"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA13",
+          "target_device": "YEALINK CS10-D (8)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-039"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA14",
+          "target_device": "YEALINK CS10-D (9)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-040"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA15",
+          "target_device": "YEALINK CS10-D (12)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-041"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA16",
+          "target_device": "YEALINK CS10-D (13)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-042"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA17",
+          "target_device": "YEALINK CS10-D (14)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-043"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA18",
+          "target_device": "YEALINK CS10-D (19)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-044"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA19",
+          "target_device": "YEALINK CS10-D (20)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-045"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (2)",
+          "source_port": "DATA20",
+          "target_device": "YEALINK CS10-D (21)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-046"
+        },
+        {
+          "source_device": "YEALINK AP08",
+          "source_port": "USB A IP1",
+          "target_device": "YEALINK AVHUB",
+          "target_port": "USB A IP1",
+          "confidence": 0.75,
+          "flags": [
+            "joined_offpage",
+            "direction_uncertain"
+          ],
+          "cable": "USB-008"
+        },
+        {
+          "source_device": "AMPETRONICS ALS",
+          "source_port": "ANT A",
+          "target_device": "AMPETRONICS INDUCTION LOOP",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "ANT-001"
+        },
+        {
+          "source_device": "AMPETRONICS ALS",
+          "source_port": "ANT B",
+          "target_device": "AMPETRONICS INDUCTION LOOP",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "ANT-002"
+        },
+        {
+          "source_device": "AMPETRONICS ALS",
+          "source_port": "LAN",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP12",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-265"
+        },
+        {
+          "source_device": "GENERIC OFE POWER PLATE",
+          "source_port": "POWER2",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "POWER IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-018"
+        },
+        {
+          "source_device": "GENERIC OFE POWER PLATE",
+          "source_port": "POWER1",
+          "target_device": "YEALINK RCH240 (1)",
+          "target_port": "POWER IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-019"
+        },
+        {
+          "source_device": "YEALINK AP08",
+          "source_port": "POWER1",
+          "target_device": "GENERIC OFE POWER PLATE",
+          "target_port": "POWER3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-020"
+        },
+        {
+          "source_device": "YEALINK RCH240 (1)",
+          "source_port": "LAN POE OP24",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE OP23",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "LAN-262"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 36,
+        "blocks_with_product_name": 36,
+        "dots": 99,
+        "cables": 54,
+        "cable_ends": 108,
+        "cable_ends_resolved": 108,
+        "connections": 45,
+        "mean_confidence": 0.93
+      },
+      "connections": [
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA1",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-073"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA2",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-074"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA3",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-075"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA4",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-076"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA5",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-077"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA6",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-078"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA7",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-079"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA8",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP8",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-080"
+        },
+        {
+          "source_device": "GENERIC OFEPATCH PANEL (3)",
+          "source_port": "DATA9",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP9",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-081"
+        },
+        {
+          "source_device": "GENERIC OFE GENERIC OFE POWER PLATE (2)",
+          "source_port": "POWER1",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "POWER IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "PWR-004"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (1)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (5)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-082"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (2)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (6)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-083"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (3)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (7)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-084"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (4)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (8)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-085"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (5)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (9)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-086"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (6)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (10)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-087"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (7)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (11)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-088"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (8)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (12)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-089"
+        },
+        {
+          "source_device": "YEALINK SMARTVISION 80 (9)",
+          "source_port": "LAN1",
+          "target_device": "GENERIC OFE DATA PLATE (13)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-090"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (5)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-091"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (6)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-092"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (7)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-093"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (8)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-094"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (9)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA5",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-095"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (10)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA6",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-096"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (11)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-097"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (12)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA8",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-098"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (13)",
+          "source_port": "DATA1",
+          "target_device": "GENERIC OFEPATCH PANEL (3)",
+          "target_port": "DATA9",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-099"
+        },
+        {
+          "source_device": "YEALINK CT300",
+          "source_port": "LAN1",
+          "target_device": "YEALINK RCH240 (2)",
+          "target_port": "LAN POE IP10",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-100"
+        },
+        {
+          "source_device": "YEALINK ROOMPANEL PLUS E2 (1)",
+          "source_port": "LAN POE1",
+          "target_device": "GENERIC OFE DATA PLATE (14)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-101"
+        },
+        {
+          "source_device": "YEALINK ROOMPANEL PLUS E2 (2)",
+          "source_port": "LAN POE1",
+          "target_device": "GENERIC OFE DATA PLATE (15)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-102"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (14)",
+          "source_port": "DATA1",
+          "target_device": "CLIENT LAN",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-103"
+        },
+        {
+          "source_device": "GENERIC OFE DATA PLATE (15)",
+          "source_port": "DATA1",
+          "target_device": "CLIENT LAN",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-104"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP13",
+          "target_device": "GLOBAL CACHE ITACH IP2CC-P (1)",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-127"
+        },
+        {
+          "source_device": "GLOBAL CACHE ITACH IP2CC-P (1)",
+          "source_port": "CONT CLOSURE OP1",
+          "target_device": "SONIFEX LD-40F1",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "RLY-001"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP14",
+          "target_device": "GLOBAL CACHE ITACH IP2CC-P (2)",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-128"
+        },
+        {
+          "source_device": "GLOBAL CACHE ITACH IP2CC-P (2)",
+          "source_port": "CONT CLOSURE OP1",
+          "target_device": "SONIFEX LD-40F1",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "RLY-002"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP15",
+          "target_device": "GLOBAL CACHE ITACH IP2CC-P (3)",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-129"
+        },
+        {
+          "source_device": "GLOBAL CACHE ITACH IP2CC-P (3)",
+          "source_port": "CONT CLOSURE OP1",
+          "target_device": "SONIFEX LD-40F1",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "RLY-003"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP16",
+          "target_device": "GLOBAL CACHE ITACH IP2CC-P (4)",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": ""
+        },
+        {
+          "source_device": "GLOBAL CACHE ITACH IP2CC-P (4)",
+          "source_port": "CONT CLOSURE OP1",
+          "target_device": "SONIFEX LD-40F1",
+          "target_port": "",
+          "confidence": 0.8,
+          "flags": [
+            "port_label_missing"
+          ],
+          "cable": "RLY-004"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP17",
+          "target_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "target_port": "DATA3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-271"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP18",
+          "target_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "target_port": "DATA2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-272"
+        },
+        {
+          "source_device": "YEALINK RCH240 (2)",
+          "source_port": "LAN POE OP19",
+          "target_device": "GENERIC OFE4 PORT DATA PLATE (8)",
+          "target_port": "DATA1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-273"
+        },
+        {
+          "source_device": "GENERIC OFE GENERIC OFE POWER PLATE (2)",
+          "source_port": "POWER2",
+          "target_device": "YEALINK AVHUB",
+          "target_port": "POWER1",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "PWR-021"
+        }
+      ]
+    }
+  ]
+}

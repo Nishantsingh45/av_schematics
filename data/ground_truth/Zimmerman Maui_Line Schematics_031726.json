@@ -1,0 +1,152 @@
+[
+  {
+    "source_device": "ATLASIED C-V",
+    "source_port": "LAN IP1",
+    "target_device": "ATLASIED AZM4",
+    "target_port": "ACCESSORY IP1"
+  },
+  {
+    "source_device": "OFE MEDIA PLAYER",
+    "source_port": "ANALOG L OP1",
+    "target_device": "ATLASIED AZM4",
+    "target_port": "AUDIO 5 IP1"
+  },
+  {
+    "source_device": "OFE MEDIA PLAYER",
+    "source_port": "ANALOG R OP1",
+    "target_device": "ATLASIED AZM4",
+    "target_port": "AUDIO 6 IP2"
+  },
+  {
+    "source_device": "ATLASIED AZM4",
+    "source_port": "LINE OP1",
+    "target_device": "EPISODE EA-DYN-16D-100",
+    "target_port": "(GLOBAL A L) IP3"
+  },
+  {
+    "source_device": "ATLASIED AZM4",
+    "source_port": "LINE OP2",
+    "target_device": "EPISODE EA-DYN-16D-100",
+    "target_port": "(GLOBAL B R) IP4"
+  },
+  {
+    "source_device": "ATLASIED AZM4",
+    "source_port": "LINE OP3",
+    "target_device": "EPISODE EA-DYN-16D-100",
+    "target_port": "(GLOBAL A L) IP1"
+  },
+  {
+    "source_device": "ATLASIED AZM4",
+    "source_port": "LINE OP4",
+    "target_device": "EPISODE EA-DYN-16D-100",
+    "target_port": "(GLOBAL A B) IP2"
+  },
+  {
+    "source_device": "PANAMAX MR4300",
+    "source_port": "POWER OUTLET OP1",
+    "target_device": "OFE MEDIA PLAYER",
+    "target_port": "POWER1"
+  },
+  {
+    "source_device": "PANAMAX MR4300",
+    "source_port": "POWER OUTLET OP2",
+    "target_device": "ATLASIED AZM4",
+    "target_port": "POWER1"
+  },
+  {
+    "source_device": "PANAMAX MR4300",
+    "source_port": "POWER OUTLET OP3",
+    "target_device": "EPISODE EA-DYN-16D-100",
+    "target_port": "POWER1"
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP1",
+    "target_device": "EPISODE SIG-54-IC (1)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP2",
+    "target_device": "EPISODE SIG-54-IC (2)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP3",
+    "target_device": "EPISODE SIG-54-IC (3)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP4",
+    "target_device": "EPISODE SIG-54-IC (4)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP5",
+    "target_device": "EPISODE SIG-54-IC (5)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP6",
+    "target_device": "EPISODE SIG-54-IC (6)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP7",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (1)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP8",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (2)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP9",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (3)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP10",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (4)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP11",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (5)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP12",
+    "target_device": "REVOLUTION ACOUSTICS SSP6 (6)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP13",
+    "target_device": "CUSTOM ACRYLIC SPEAKERS (1)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP14",
+    "target_device": "CUSTOM ACRYLIC SPEAKERS (2)",
+    "target_port": ""
+  },
+  {
+    "source_device": "EPISODE EA-DYN-16D-100",
+    "source_port": "SPEAKER OP15",
+    "target_device": "EPISODE ES-SUB-IW-SNGL8",
+    "target_port": ""
+  }
+]

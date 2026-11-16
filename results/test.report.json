@@ -1,0 +1,116 @@
+{
+  "file": "test.jpg",
+  "connections": 9,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "llm",
+      "status": "ok",
+      "note": "Swapped the two audio cables: AUDIO OP1 runs to the Sony AUDIO R/L IP1 (A 000) and AUDIO OP2 runs up to the speaker (A 001). The routing near the V 0015 label is cluttered, so this swap is only moderately certain. All other connections were confirmed in the tiles.",
+      "stats": {
+        "connections": 9
+      },
+      "connections": [
+        {
+          "source_device": "LOGITECH RALLY MIC POD GRAPHITE (LOGITECH RALLY PLUS)",
+          "source_port": "",
+          "target_device": "LOGITECH RALLY TABLE HUB (LOGITECH RALLY PLUS)",
+          "target_port": "MIC IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY TABLE HUB (LOGITECH RALLY PLUS)",
+          "source_port": "CAT5/6 OP1",
+          "target_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "target_port": "CAT5/6 IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD",
+          "source_port": "USB C IP2",
+          "target_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "target_port": "USB B IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY CAMERA (LOGITECH RALLY PLUS)",
+          "source_port": "USB C OP1",
+          "target_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD",
+          "target_port": "USB C IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH TAP",
+          "source_port": "LAN1",
+          "target_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD",
+          "target_port": "LAN1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "source_port": "HDMI OP1",
+          "target_device": "SONY FW-75XE9001",
+          "target_port": "HDMI IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "source_port": "HDMI OP2",
+          "target_device": "SONY FW-75XE9001",
+          "target_port": "HDMI IP2",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "source_port": "AUDIO OP1",
+          "target_device": "SONY FW-75XE9001",
+          "target_port": "AUDIO R/L IP1",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        },
+        {
+          "source_device": "LOGITECH RALLY DISPLAY HUB (LOGITECH RALLY PLUS)",
+          "source_port": "AUDIO OP2",
+          "target_device": "LOGITECH RALLY SPEAKER (LOGITECH RALLY PLUS)",
+          "target_port": "",
+          "confidence": 0.5,
+          "flags": [
+            "llm_read"
+          ],
+          "cable": ""
+        }
+      ]
+    }
+  ]
+}

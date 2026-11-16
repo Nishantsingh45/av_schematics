@@ -1,0 +1,23 @@
+{
+  "file": "7619_ORC Chamber_ Chambers-Line Schematics-02-01-2026.pdf",
+  "connections": 0,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "vector",
+      "status": "no_cables",
+      "note": "No cables found (e.g. a rack layout or a non-schematic page).",
+      "stats": {
+        "device_blocks": 1,
+        "blocks_with_product_name": 1,
+        "dots": 0,
+        "cables": 0,
+        "cable_ends": 0,
+        "cable_ends_resolved": 0,
+        "connections": 0,
+        "mean_confidence": null
+      },
+      "connections": []
+    }
+  ]
+}

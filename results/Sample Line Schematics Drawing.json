@@ -1,0 +1,50 @@
+[
+  {
+    "source_device": "CRESTRON DM-TX-4KZ-302-C",
+    "source_port": "DM OP1",
+    "target_device": "CRESTRON DMF-RMC-4K-S PAK KIT",
+    "target_port": "DM SFP+ IP1"
+  },
+  {
+    "source_device": "CRESTRON DMF-RMC-4K-S PAK KIT",
+    "source_port": "HDMI OP1",
+    "target_device": "SAMSUNG QM75C",
+    "target_port": "HDMI IP1"
+  },
+  {
+    "source_device": "CRESTRON DMF-RMC-4K-S PAK KIT",
+    "source_port": "LAN1",
+    "target_device": "SAMSUNG QM75C",
+    "target_port": "ETHERNET1"
+  },
+  {
+    "source_device": "INTEL NUC11PAHI7",
+    "source_port": "HDMI OP1",
+    "target_device": "CRESTRON DM-TX-4KZ-302-C",
+    "target_port": "HDMI IP1"
+  },
+  {
+    "source_device": "CRESTRON DM-TX-4KZ-302-C",
+    "source_port": "LAN1",
+    "target_device": "NETGEAR M4250-26G4F-POE++",
+    "target_port": "LAN POE++ IP2"
+  },
+  {
+    "source_device": "YEALINK SMARTVISION 80 (YEALINK MVC-S80-C5U-000)",
+    "source_port": "USB A1",
+    "target_device": "INTEL NUC11PAHI7",
+    "target_port": "USB A2"
+  },
+  {
+    "source_device": "YEALINK SMARTVISION 80 (YEALINK MVC-S80-C5U-000)",
+    "source_port": "LAN1",
+    "target_device": "NETGEAR M4250-26G4F-POE++",
+    "target_port": "LAN POE++ IP1"
+  },
+  {
+    "source_device": "YEALINK ROOMSENSOR (YEALINK MVC-S80-C5U-000)",
+    "source_port": "",
+    "target_device": "NETGEAR M4250-26G4F-POE++",
+    "target_port": "LAN POE++ IP3"
+  }
+]

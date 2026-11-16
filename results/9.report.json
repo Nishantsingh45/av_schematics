@@ -1,0 +1,16 @@
+{
+  "file": "9.jpg",
+  "connections": 0,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "llm",
+      "status": "low_confidence",
+      "note": "This is a wiring schematic with many devices and cables, but the text is too small and blurry to read exactly. Cable routes cross in dense bundles, and I could not follow any cable from end to end with confidence. I could not read port names or full product names reliably, so no connections are reported.",
+      "stats": {
+        "connections": 0
+      },
+      "connections": []
+    }
+  ]
+}

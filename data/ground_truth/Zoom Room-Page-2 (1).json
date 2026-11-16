@@ -1,0 +1,56 @@
+[
+  {
+    "source_device": "LOGITECH RALLY MIC POD GRAPHITE (2)",
+    "source_port": "",
+    "target_device": "LOGITECH RALLY TABLE HUB (2)",
+    "target_port": "MIC IP1"
+  },
+  {
+    "source_device": "LOGITECH RALLY TABLE HUB (2)",
+    "source_port": "CAT5/6 OP1",
+    "target_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "target_port": "CAT5/6 IP1"
+  },
+  {
+    "source_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "source_port": "HDMI OP1",
+    "target_device": "SONY FW-75XE9001 (2)",
+    "target_port": "HDMI IP1"
+  },
+  {
+    "source_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "source_port": "HDMI OP2",
+    "target_device": "SONY FW-75XE9001 (2)",
+    "target_port": "HDMI IP2"
+  },
+  {
+    "source_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "source_port": "AUDIO OP1",
+    "target_device": "SONY FW-75XE9001 (2)",
+    "target_port": "AUDIO R/L IP1"
+  },
+  {
+    "source_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "source_port": "AUDIO OP2",
+    "target_device": "LOGITECH RALLY SPEAKER (2) (LOGITECH RALLY PLUS)",
+    "target_port": ""
+  },
+  {
+    "source_device": "LOGITECH RALLY CAMERA (2)",
+    "source_port": "USB C OP1",
+    "target_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD (2)",
+    "target_port": "USB C IP1"
+  },
+  {
+    "source_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD (2)",
+    "source_port": "USB C IP2",
+    "target_device": "LOGITECH RALLY DISPLAY HUB (2)",
+    "target_port": "USB B IP1"
+  },
+  {
+    "source_device": "LOGITECH TAP (2)",
+    "source_port": "LAN1",
+    "target_device": "INTEL NUC 11TNKI7 16GB RAM, 512GB SSD (2)",
+    "target_port": "LAN1"
+  }
+]

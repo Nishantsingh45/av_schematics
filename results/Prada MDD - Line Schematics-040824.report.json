@@ -1,0 +1,320 @@
+{
+  "file": "Prada MDD - Line Schematics-040824.pdf",
+  "connections": 32,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 14,
+        "blocks_with_product_name": 14,
+        "dots": 64,
+        "cables": 32,
+        "cable_ends": 64,
+        "cable_ends_resolved": 64,
+        "connections": 32,
+        "mean_confidence": 0.97
+      },
+      "connections": [
+        {
+          "source_device": "ARAKNIS NETWORKS AN-220-SW-R-8-POE",
+          "source_port": "LAN POE5",
+          "target_device": "LEA PROFESSIONAL CS704D (1)",
+          "target_port": "PRIM DANTE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN0, Ethernet/LAN1, Ethernet/LAN2"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (1)",
+          "source_port": "SPEAKER OP1",
+          "target_device": "STEALTH ACOUSTICS LR224 (1)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT0"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (1)",
+          "source_port": "SPEAKER OP2",
+          "target_device": "STEALTH ACOUSTICS LR224 (2)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT1"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (1)",
+          "source_port": "SPEAKER OP3",
+          "target_device": "STEALTH ACOUSTICS LR224 (3)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT2"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (1)",
+          "source_port": "SPEAKER OP4",
+          "target_device": "STEALTH ACOUSTICS LR224 (4)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT3"
+        },
+        {
+          "source_device": "OFE MEDIA PLAYER",
+          "source_port": "ANALOG L OP1",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "AUDIO R IP7",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-001"
+        },
+        {
+          "source_device": "OFE MEDIA PLAYER",
+          "source_port": "ANALOG R OP2",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "AUDIO R IP8",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-002"
+        },
+        {
+          "source_device": "ATLASIED A-XLR (3)",
+          "source_port": "CAT5E/6 OP1",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "ACCESSORY IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN5"
+        },
+        {
+          "source_device": "ATLASIED C-ZSV (1)",
+          "source_port": "CAT5E/6 IP1",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "ACCESSORY IP2",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "Ethernet/LAN7"
+        },
+        {
+          "source_device": "ATLASIED C-V",
+          "source_port": "LAN IP1",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "ACCESSORY IP3",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "Ethernet/LAN8"
+        },
+        {
+          "source_device": "ATLASIED C-ZSV (2)",
+          "source_port": "CAT5E/6 IP1",
+          "target_device": "ATLASIED AZM8-D",
+          "target_port": "ACCESSORY IP4",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "Ethernet/LAN9"
+        },
+        {
+          "source_device": "ATLASIED AZM8-D",
+          "source_port": "DANTE1",
+          "target_device": "ARAKNIS NETWORKS AN-220-SW-R-8-POE",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN4, Ethernet/LAN0, Ethernet/LAN1"
+        },
+        {
+          "source_device": "ARAKNIS NETWORKS AN-220-SW-R-8-POE",
+          "source_port": "LAN POE6",
+          "target_device": "LEA PROFESSIONAL CS704D (2)",
+          "target_port": "PRIM DANTE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN0, Ethernet/LAN1, Ethernet/LAN2"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (2)",
+          "source_port": "SPEAKER OP1",
+          "target_device": "STEALTH ACOUSTICS LR224 (5)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT4"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (2)",
+          "source_port": "SPEAKER OP2",
+          "target_device": "STEALTH ACOUSTICS LR116 (6)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT5"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (2)",
+          "source_port": "SPEAKER OP3",
+          "target_device": "ELEVATOR SPEAKER",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT25"
+        },
+        {
+          "source_device": "ARAKNIS NETWORKS AN-220-SW-R-8-POE",
+          "source_port": "LAN POE7",
+          "target_device": "LEA PROFESSIONAL CS704D (3)",
+          "target_port": "PRIM DANTE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN2"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (3)",
+          "source_port": "SPEAKER OP1",
+          "target_device": "BOSE MB-210WR (1)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT7"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (3)",
+          "source_port": "SPEAKER OP2",
+          "target_device": "BOSE MB-210WR (2)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT8"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (3)",
+          "source_port": "SPEAKER OP3",
+          "target_device": "BOSE MB-210WR (3)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT9"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS704D (3)",
+          "source_port": "SPEAKER OP4",
+          "target_device": "BOSE MB-210WR (4)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT10"
+        },
+        {
+          "source_device": "ATLASIED C-ZSV (1)",
+          "source_port": "CAT5E/6 OP1",
+          "target_device": "ATLASIED A-XLR (2)",
+          "target_port": "CAT5E/6 IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Ethernet/LAN6"
+        },
+        {
+          "source_device": "ATLASIED C-ZSV (2)",
+          "source_port": "CAT5E/6 OP1",
+          "target_device": "ATLASIED A-XLR (1)",
+          "target_port": "CAT5E/6 IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "Proprietary6"
+        },
+        {
+          "source_device": "STEALTH ACOUSTICS LR224 (5)",
+          "source_port": "",
+          "target_device": "STEALTH ACOUSTICS LR116 (7)",
+          "target_port": "",
+          "confidence": 0.75,
+          "flags": [
+            "direction_uncertain"
+          ],
+          "cable": "SPEAKER OUT24"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP1",
+          "target_device": "Revolution Acoustics SSP-6 (8)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT15"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP2",
+          "target_device": "Revolution Acoustics SSP-6 (13)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT16"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP3",
+          "target_device": "Revolution Acoustics SSP-6 (10)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT17"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP4",
+          "target_device": "Revolution Acoustics SSP-6 (14)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT18, SPEAKER OUT19, SPEAKER OUT20, SPEAKER OUT21, SPEAKER OUT22"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP5",
+          "target_device": "Revolution Acoustics SSP-6 (11)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT19, SPEAKER OUT20, SPEAKER OUT21, SPEAKER OUT22"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP6",
+          "target_device": "Revolution Acoustics SSP-6 (15)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT21, SPEAKER OUT22"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP7",
+          "target_device": "Revolution Acoustics SSP-6 (12)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SPEAKER OUT21, SPEAKER OUT22"
+        },
+        {
+          "source_device": "LEA PROFESSIONAL CS168D",
+          "source_port": "SPEAKER OP8",
+          "target_device": "Revolution Acoustics SSP-6 (16)",
+          "target_port": "",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": ""
+        }
+      ]
+    }
+  ]
+}

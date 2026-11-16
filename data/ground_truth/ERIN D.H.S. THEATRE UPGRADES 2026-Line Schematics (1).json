@@ -1,0 +1,380 @@
+[
+  {
+    "source_device": "AMX NMX-ENC-N2315-WP",
+    "source_port": "LAN OP1",
+    "target_device": "NETGEAR GSM4230UP100NAS",
+    "target_port": "LAN POE IP1"
+  },
+  {
+    "source_device": "QSC TSC-70-G3 (1)",
+    "source_port": "POE OP1",
+    "target_device": "NETGEAR GSM4230UP100NAS",
+    "target_port": "LAN POE IP2"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "LAN2",
+    "target_device": "NETGEAR GSM4230UP100NAS",
+    "target_port": "LAN POE IP3"
+  },
+  {
+    "source_device": "NETGEAR GSM4230UP100NAS",
+    "source_port": "LAN POE OP1",
+    "target_device": "AMX NMX-DEC-N2322 (1)",
+    "target_port": "LAN IP1"
+  },
+  {
+    "source_device": "NETGEAR GSM4230UP100NAS",
+    "source_port": "LAN POE OP2",
+    "target_device": "QSC QIO-LVR4",
+    "target_port": "LAN POE1"
+  },
+  {
+    "source_device": "NETGEAR GSM4230UP100NAS",
+    "source_port": "LAN POE OP3",
+    "target_device": "AMX NMX-DEC-N2322 (2)",
+    "target_port": "LAN IP1"
+  },
+  {
+    "source_device": "AMX NMX-DEC-N2322 (1)",
+    "source_port": "HDMI OP1",
+    "target_device": "CHRISTIE 4K7-HS",
+    "target_port": "HDMI IP1"
+  },
+  {
+    "source_device": "QSC QIO-LVR4",
+    "source_port": "RELAY OP1",
+    "target_device": "DA LITE 24845L",
+    "target_port": "RELAY IP1"
+  },
+  {
+    "source_device": "SHURE QLXD4=-G50",
+    "source_port": "MIC/LINE OP1",
+    "target_device": "QSC CORE 110F-V2",
+    "target_port": "FLEX IP1"
+  },
+  {
+    "source_device": "AMX NMX-DEC-N2322 (2)",
+    "source_port": "AUD OP1",
+    "target_device": "QSC CORE 110F-V2",
+    "target_port": "FLEX IP2"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "FLEX OP1",
+    "target_device": "D&B AUDIOTECHNIK 30D (1)",
+    "target_port": "ANALOG AUDIO IP1"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "FLEX OP2",
+    "target_device": "D&B AUDIOTECHNIK 30D (1)",
+    "target_port": "ANALOG AUDIO IP2"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "FLEX OP3",
+    "target_device": "D&B AUDIOTECHNIK 30D (1)",
+    "target_port": "ANALOG AUDIO IP3"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "FLEX OP4",
+    "target_device": "D&B AUDIOTECHNIK 30D (1)",
+    "target_port": "ANALOG AUDIO IP4"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "MIC/LINE OP1",
+    "target_device": "WILLIAMSAV FM-557",
+    "target_port": "MIC/ LINE IP1"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "MIC/LINE OP2",
+    "target_device": "D&B AUDIOTECHNIK 30D (2)",
+    "target_port": "ANALOG AUDIO IP2"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "MIC/LINE OP3",
+    "target_device": "D&B AUDIOTECHNIK 30D (2)",
+    "target_port": "ANALOG AUDIO IP3"
+  },
+  {
+    "source_device": "QSC CORE 110F-V2",
+    "source_port": "MIC/LINE OP4",
+    "target_device": "D&B AUDIOTECHNIK 30D (2)",
+    "target_port": "ANALOG AUDIO IP4"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (1)",
+    "source_port": "SPEAKER OP1",
+    "target_device": "D&B AUDIOTECHNIK 27S-SUB (1)",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (1)",
+    "source_port": "SPEAKER OP2",
+    "target_device": "D&B AUDIOTECHNIK 27S-SUB (4)",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (1)",
+    "source_port": "SPEAKER OP3",
+    "target_device": "D&B AUDIOTECHNIK 12S",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (1)",
+    "source_port": "SPEAKER OP4",
+    "target_device": "D&B AUDIOTECHNIK12S",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (2)",
+    "source_port": "SPEAKER OP1",
+    "target_device": "D&B AUDIOTECHNIK44S LOUDSPEAKER (6)",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (2)",
+    "source_port": "SPEAKER OP2",
+    "target_device": "D&B AUDIOTECHNIK 44S LOUDSPEAKER",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "D&B AUDIOTECHNIK 30D (2)",
+    "source_port": "SPEAKER OP3",
+    "target_device": "D&B AUDIOTECHNIK44S LOUDSPEAKER (7)",
+    "target_port": "SPKR1"
+  },
+  {
+    "source_device": "ETC P-TS7-PE (2)",
+    "source_port": "POE OP1",
+    "target_device": "NETGEAR GSM4230UP100NAS",
+    "target_port": "LAN POE IP4"
+  },
+  {
+    "source_device": "ETC ION XE 2K",
+    "source_port": "LAN1",
+    "target_device": "NETGEAR GSM4230UP100NAS",
+    "target_port": "LAN POE IP5"
+  },
+  {
+    "source_device": "NETGEAR GSM4230UP100NAS",
+    "source_port": "LAN POE OP4",
+    "target_device": "ETC RSN-DMX2-O-P-4",
+    "target_port": "LAN POE1"
+  },
+  {
+    "source_device": "NETGEAR GSM4230UP100NAS",
+    "source_port": "LAN POE OP5",
+    "target_device": "ETC P-ACP-E Mk2 (1)",
+    "target_port": "ETHERNET1"
+  },
+  {
+    "source_device": "ETC PI1002 (1)",
+    "source_port": "LINK CONNECT",
+    "target_device": "ETC P-ACP-E Mk2 (1)",
+    "target_port": "STATION A"
+  },
+  {
+    "source_device": "ETC PI1002 (2)",
+    "source_port": "LINK CONNECT",
+    "target_device": "ETC PI1002 (1)",
+    "target_port": "LINK CONNECT"
+  },
+  {
+    "source_device": "ETC PI1006 (3)",
+    "source_port": "LINK CONNECT",
+    "target_device": "ETC PI1002 (2)",
+    "target_port": "LINK CONNECT"
+  },
+  {
+    "source_device": "ETC PI1006 (4)",
+    "source_port": "LINK CONNECT",
+    "target_device": "ETC PI1006 (3)",
+    "target_port": "LINK CONNECT"
+  },
+  {
+    "source_device": "ETC P-ACP-E Mk2 (1)",
+    "source_port": "DMX OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE SPOT V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE SPOT V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC P-ACP-E Mk2 (1)",
+    "source_port": "DMX OP2",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE FRESNEL V",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE FRESNEL V",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC RSN-DMX2-O-P-4",
+    "source_port": "DMX OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE CYC",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE CYC",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE CYC",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE CYC",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC COLORSOURCE CYC",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC COLORSOURCE CYC",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC RSN-DMX2-O-P-4",
+    "source_port": "DMX OP2",
+    "target_device": "ETC LONESTAR",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC LONESTAR",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC LONESTAR",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC LONESTAR",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC LONESTAR",
+    "target_port": "DMX IP1"
+  },
+  {
+    "source_device": "ETC LONESTAR",
+    "source_port": "DMX THRU OP1",
+    "target_device": "ETC LONESTAR",
+    "target_port": "DMX IP1"
+  }
+]

@@ -1,0 +1,617 @@
+{
+  "file": "ERIN D.H.S. THEATRE UPGRADES 2026-Line Schematics (1).pdf",
+  "connections": 63,
+  "pages": [
+    {
+      "page": 1,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 20,
+        "blocks_with_product_name": 20,
+        "dots": 55,
+        "cables": 29,
+        "cable_ends": 58,
+        "cable_ends_resolved": 58,
+        "connections": 29,
+        "mean_confidence": 0.96
+      },
+      "connections": [
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (1)",
+          "source_port": "SPEAKER OP1",
+          "target_device": "D&B AUDIOTECHNIK 27S-SUB (1)",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1000"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (1)",
+          "source_port": "SPEAKER OP3",
+          "target_device": "D&B AUDIOTECHNIK 12S",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1002, AD-1003"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (2)",
+          "source_port": "SPEAKER OP2",
+          "target_device": "D&B AUDIOTECHNIK 44S LOUDSPEAKER",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1005, SP-1006, SP-1007"
+        },
+        {
+          "source_device": "QSC TSC-70-G3 (1)",
+          "source_port": "POE OP1",
+          "target_device": "NETGEAR GSM4230UP100NAS",
+          "target_port": "LAN POE IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1003"
+        },
+        {
+          "source_device": "SHURE QLXD4=-G50",
+          "source_port": "MIC/LINE OP1",
+          "target_device": "QSC CORE 110F-V2",
+          "target_port": "FLEX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-100"
+        },
+        {
+          "source_device": "AMX NMX-DEC-N2322 (2)",
+          "source_port": "AUD OP1",
+          "target_device": "QSC CORE 110F-V2",
+          "target_port": "FLEX IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-101"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "FLEX OP1",
+          "target_device": "D&B AUDIOTECHNIK 30D (1)",
+          "target_port": "ANALOG AUDIO IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-103"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "FLEX OP2",
+          "target_device": "D&B AUDIOTECHNIK 30D (1)",
+          "target_port": "ANALOG AUDIO IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-104"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "FLEX OP3",
+          "target_device": "D&B AUDIOTECHNIK 30D (1)",
+          "target_port": "ANALOG AUDIO IP3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-105"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "FLEX OP4",
+          "target_device": "D&B AUDIOTECHNIK 30D (1)",
+          "target_port": "ANALOG AUDIO IP4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-106"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "MIC/LINE OP1",
+          "target_device": "WILLIAMSAV FM-557",
+          "target_port": "MIC/ LINE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-102"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "MIC/LINE OP2",
+          "target_device": "D&B AUDIOTECHNIK 30D (2)",
+          "target_port": "ANALOG AUDIO IP2",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-125"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "MIC/LINE OP3",
+          "target_device": "D&B AUDIOTECHNIK 30D (2)",
+          "target_port": "ANALOG AUDIO IP3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-126"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "MIC/LINE OP4",
+          "target_device": "D&B AUDIOTECHNIK 30D (2)",
+          "target_port": "ANALOG AUDIO IP4",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "AUD-127"
+        },
+        {
+          "source_device": "QSC CORE 110F-V2",
+          "source_port": "LAN2",
+          "target_device": "NETGEAR GSM4230UP100NAS",
+          "target_port": "LAN POE IP3",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1004"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (1)",
+          "source_port": "SPEAKER OP2",
+          "target_device": "D&B AUDIOTECHNIK 27S-SUB (4)",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1001"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (1)",
+          "source_port": "SPEAKER OP4",
+          "target_device": "D&B AUDIOTECHNIK12S",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1002, AD-1003"
+        },
+        {
+          "source_device": "AMX NMX-DEC-N2322 (1)",
+          "source_port": "HDMI OP1",
+          "target_device": "CHRISTIE 4K7-HS",
+          "target_port": "HDMI IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "HD-1000"
+        },
+        {
+          "source_device": "AMX NMX-ENC-N2315-WP",
+          "source_port": "LAN OP1",
+          "target_device": "NETGEAR GSM4230UP100NAS",
+          "target_port": "LAN POE IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1002"
+        },
+        {
+          "source_device": "NETGEAR GSM4230UP100NAS",
+          "source_port": "LAN POE OP1",
+          "target_device": "AMX NMX-DEC-N2322 (1)",
+          "target_port": "LAN IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1001"
+        },
+        {
+          "source_device": "QSC QIO-LVR4",
+          "source_port": "RELAY OP1",
+          "target_device": "DA LITE 24845L",
+          "target_port": "RELAY IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "RL-1000"
+        },
+        {
+          "source_device": "ETC P-TS7-PE (2)",
+          "source_port": "POE OP1",
+          "target_device": "NETGEAR GSM4230UP100NAS",
+          "target_port": "LAN POE IP4",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-1007 + LAN-1007"
+        },
+        {
+          "source_device": "ETC ION XE 2K",
+          "source_port": "LAN1",
+          "target_device": "NETGEAR GSM4230UP100NAS",
+          "target_port": "LAN POE IP5",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-1009 + LAN-1009"
+        },
+        {
+          "source_device": "NETGEAR GSM4230UP100NAS",
+          "source_port": "LAN POE OP2",
+          "target_device": "QSC QIO-LVR4",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1006"
+        },
+        {
+          "source_device": "NETGEAR GSM4230UP100NAS",
+          "source_port": "LAN POE OP3",
+          "target_device": "AMX NMX-DEC-N2322 (2)",
+          "target_port": "LAN IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "LAN-1005"
+        },
+        {
+          "source_device": "NETGEAR GSM4230UP100NAS",
+          "source_port": "LAN POE OP4",
+          "target_device": "ETC RSN-DMX2-O-P-4",
+          "target_port": "LAN POE1",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-1011 + LAN-1011"
+        },
+        {
+          "source_device": "NETGEAR GSM4230UP100NAS",
+          "source_port": "LAN POE OP5",
+          "target_device": "ETC P-ACP-E Mk2 (1)",
+          "target_port": "ETHERNET1",
+          "confidence": 1.0,
+          "flags": [
+            "joined_offpage"
+          ],
+          "cable": "LAN-1013 + LAN-1013"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (2)",
+          "source_port": "SPEAKER OP1",
+          "target_device": "D&B AUDIOTECHNIK44S LOUDSPEAKER (6)",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1005, SP-1006"
+        },
+        {
+          "source_device": "D&B AUDIOTECHNIK 30D (2)",
+          "source_port": "SPEAKER OP3",
+          "target_device": "D&B AUDIOTECHNIK44S LOUDSPEAKER (7)",
+          "target_port": "SPKR1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "SP-1006, SP-1007"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "reader": "vector",
+      "status": "ok",
+      "note": "",
+      "stats": {
+        "device_blocks": 38,
+        "blocks_with_product_name": 38,
+        "dots": 72,
+        "cables": 38,
+        "cable_ends": 76,
+        "cable_ends_resolved": 76,
+        "connections": 34,
+        "mean_confidence": 0.97
+      },
+      "connections": [
+        {
+          "source_device": "ETC P-ACP-E Mk2 (1)",
+          "source_port": "DMX OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX0"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX1"
+        },
+        {
+          "source_device": "ETC P-ACP-E Mk2 (1)",
+          "source_port": "DMX OP2",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX13"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX14"
+        },
+        {
+          "source_device": "ETC RSN-DMX2-O-P-4",
+          "source_port": "DMX OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX21"
+        },
+        {
+          "source_device": "ETC COLORSOURCE CYC",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX22"
+        },
+        {
+          "source_device": "ETC RSN-DMX2-O-P-4",
+          "source_port": "DMX OP2",
+          "target_device": "ETC LONESTAR",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX27"
+        },
+        {
+          "source_device": "ETC LONESTAR",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC LONESTAR",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX28"
+        },
+        {
+          "source_device": "ETC PI1002 (2)",
+          "source_port": "LINK CONNECT",
+          "target_device": "ETC PI1002 (1)",
+          "target_port": "LINK CONNECT",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "C-101"
+        },
+        {
+          "source_device": "ETC PI1002 (1)",
+          "source_port": "LINK CONNECT",
+          "target_device": "ETC P-ACP-E Mk2 (1)",
+          "target_port": "STATION A",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "C-100"
+        },
+        {
+          "source_device": "ETC PI1006 (3)",
+          "source_port": "LINK CONNECT",
+          "target_device": "ETC PI1002 (2)",
+          "target_port": "LINK CONNECT",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "C-102"
+        },
+        {
+          "source_device": "ETC PI1006 (4)",
+          "source_port": "LINK CONNECT",
+          "target_device": "ETC PI1006 (3)",
+          "target_port": "LINK CONNECT",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "C-103"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX2"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX3"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX4"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX5"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX6"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX7"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX8"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX9"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX10"
+        },
+        {
+          "source_device": "ETC COLORSOURCE SPOT V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE SPOT V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX11"
+        },
+        {
+          "source_device": "ETC LONESTAR",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC LONESTAR",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX29"
+        },
+        {
+          "source_device": "ETC LONESTAR",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC LONESTAR",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX30"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX15"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX16"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX17"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX18"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX19"
+        },
+        {
+          "source_device": "ETC COLORSOURCE FRESNEL V",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE FRESNEL V",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX20"
+        },
+        {
+          "source_device": "ETC COLORSOURCE CYC",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX23"
+        },
+        {
+          "source_device": "ETC COLORSOURCE CYC",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX24"
+        },
+        {
+          "source_device": "ETC COLORSOURCE CYC",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX25"
+        },
+        {
+          "source_device": "ETC COLORSOURCE CYC",
+          "source_port": "DMX THRU OP1",
+          "target_device": "ETC COLORSOURCE CYC",
+          "target_port": "DMX IP1",
+          "confidence": 1.0,
+          "flags": [],
+          "cable": "DMX26"
+        }
+      ]
+    }
+  ]
+}
